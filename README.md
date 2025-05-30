@@ -37,3 +37,93 @@
   </footer>
 </body>
 </html>
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdf6f2;
+  color: #3a1f1a;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #6b0f1a;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #fbe4d8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x900/?jewelry,mexico') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #b03060;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #8b1c4a;
+}
+
+.about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #6b0f1a;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
